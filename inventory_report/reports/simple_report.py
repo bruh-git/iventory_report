@@ -2,12 +2,12 @@ class SimpleReport:
     @classmethod
     def generate(cls, list):
         return (
-          f"Data de fabricação mais antiga: "
-          f"{cls.get_min_fabrication(list)}\n"
-          f"Data de validade mais próxima: "
-          f"{cls.get_min_expired(list)}\n"
-          f"Empresa com mais produtos: "
-          f"{cls.get_max_company(list)}"
+            f"Data de fabricação mais antiga: "
+            f"{cls.get_min_fabrication(list)}\n"
+            f"Data de validade mais próxima: "
+            f"{cls.get_min_expired(list)}\n"
+            f"Empresa com mais produtos: "
+            f"{cls.get_max_company(list)}"
         )
 
     @classmethod
